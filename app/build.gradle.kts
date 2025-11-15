@@ -88,6 +88,11 @@ dependencies {
     // --- Coil para Cargar Imágenes desde URL ---
     implementation(libs.coil.compose)
 
+
+    // Añade esta línea si no la tienes
+    implementation("androidx.compose.material:material-icons-extended-android:1.6.7") // Usa la versión más reciente o la que coincida con tu versión de Compose
+
+
     // --- Dependencias de Test ---
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -96,4 +101,7 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+
+
 }
